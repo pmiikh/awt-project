@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Importance of coffee</title>
+  <meta name="google-signin-client_id" content="350644546559-jtn5d190rlu848t8d1div3bt4jvgj55n.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/screenStyle.css">
+  <link rel="stylesheet" href="./css/printStyle.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Inika&family=Londrina+Solid:wght@300&display=swap"
+    rel="stylesheet">
+
+</head>
+<body onload="renderHello()">
+  <!-- -----------------------------------------NAVIGATION------------------------------------- -->
+<header class="header">
+  <div class="container">
+    <nav class="nav-flex">
+      <a class="link logo" href="/index.html">BARISTA</a>
+      <ul class="list nav-menu-flex">
+        <li><a class="link nav-link" href="/index.html">HOME</a></li>
+
+        <li><a id="menu-btn" onclick="displayOrHideMenu('about')"  class="link nav-link">ABOUT</a>
+            <nav id="about" class="about-menu hide-menu">
+              <ul  class="list about-menu-flex">
+                <li><a  class="link nav-link" href="#welcome">Welcome!</a></li>
+                <li><a class="link nav-link" href="#page-about">About</a></li>
+                <li><a  class="link nav-link" href="#best-coffee">Best coffee</a></li>
+                <li><a class="link nav-link"  href="#our-coffee-makers">Our coffee makers</a></li>
+                <li><a class="link nav-link"  href="#top-list">Top drinks</a></li>
+                <li><a class="link nav-link"  href="#our-gallery">Our gallery</a></li>
+              </ul>
+            </nav>
+        </li>
+        <li><a class="link nav-link" href="#articles">ARTICLES</a></li>
+        <li><a id="menu-btn-COM" onclick="displayOrHideMenu('comunity')" class="link nav-link">COMUNITY</a>
+
+          <nav id="comunity" class="about-menu hide-menu">
+            <ul class="list about-menu-flex">
+              <li><a class="link nav-link" href="#feedback-section">Feedback</a></li>
+              <li><a class="link nav-link" href="#impressions-section">Impressions</a></li>
+              <!-- <li><a class="link nav-link" href="#insert-section">Create article</a></li> -->
+            </ul>
+          </nav>
+          </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ---------------------------------------------MAIN-PAGE------------------------------------------------ -->
+<div id="router-view"></div>
+
+  <!-- -------------------------------------------------ABOUT---------------------------------- -->
+ 
+    <!-- -----------------------------------------TRY-OUR-COFFEE------------------------------------------ -->
+
+  <!-- ---------------------------------------------COFFEE-MAKERS-------------------------------->
+ 
+ 
+<!-- -------------------------------------------------TOP-RATED-DRINKS--------------------------- -->
+
+
+<!-- -------------------------------------------------FOTO-GALERY----------------------------------------------- -->
+  
+  <!-- ---------------------------------------------FOOTER-------------------------------------------------------- -->
+  <footer class="footer">
+    <div class="container">
+        <ul class="list footer-list">
+          <li class="opening-hours">
+            <h3 class="footer-headings">OPENING HOURS</h3>
+            <ul class="list schedule">
+              <li class="open-day">
+                <p class="day">MONDAY</p>
+                <p class="time-closed">CLOSED</p>
+              </li>
+              <li class="open-day">
+                <p class="day">TUESDAY</p>
+                <p class="time">9:00 - 22:00</p>
+              </li>
+              <li class="open-day">
+                <p class="day">WEDNESDAY</p>
+                <p class="time">9:00 - 22:00</p>
+              </li>
+              <li class="open-day">
+                <p class="day">THURSDAY</p>
+                <p class="time">9:00 - 22:00</p>
+              </li>
+              <li class="open-day">
+                <p class="day">FRIDAY</p>
+                <p class="time">10:00 - 1:00</p>
+              </li> 
+              <li class="open-day">
+                <p class="day">SATURDAY</p>
+                <p class="time">12:00 - 22:00</p>
+              </li> 
+              <li class="open-day">
+                <p class="day">SUNDAY</p>
+                <p class="time">10:00 - 21:00</p>
+              </li> 
+            </ul>
+          </li>
+          <!-- <li class="latest-post">
+            <h3 class="footer-headings">LATEST POST</h3>
+            <ul class="list latest-post-list"> 
+              <li class="post">
+                <p class="post-p">EXPAND YOUR MIND, CHANGE EVERYTHING</p>
+                <p class="post-date">02.07.2023</p>
+              </li>
+              <li class="post">
+                <p class="post-p">PLACES TO GET LOST</p>
+                <p class="post-date">14.07.2023</p>
+              </li>
+              <li class="post">
+                  <p class="post-p">LEWIS HOWES</p>
+                  <p class="post-date">16.06.2023</p>
+              </li>
+              <li class="post">
+                <p class="post-p">ELEVATE YOUR EXPECTATIONS</p>
+                <p class="post-date">14.05.2023</p>
+              </li>
+            </ul>
+          </li> -->
+          <li class="the-last-standart-post">
+            <h3 class="footer-headings">CONTACT</h3>
+            <address class="address">
+              <ul class="list address-flex-list">
+                <li class="adress-li"><a class="mail link" href="mailto:barista@oxygenbuilder.com">barista@oxygenbuilder.com</a></li>
+                <li class="adress-li"><a class="tel link" href="tel:+14441234559">1-444-123-4559</a></li>
+                <li class="adress-li"><p class="adderess-street">Raymond Boulevard 224, New York</p></li>
+                <li class="adress-li"><div class="g-signin2" data-onsuccess="onSignIn"></div></li>
+              </ul>
+            </address>
+          </li>
+          <!-- <li class="other-locations">
+            <h3 class="footer-headings">OTHER LOCATIONS</h3>
+          </li> -->
+        </ul>
+    </div>
+  </footer>
+  
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js"></script> -->
+<script src="/js/feedback.js"></script>
+<script src="/js/hideOrShowMenu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/4.2.0/mustache.min.js"></script>
+<script src="https://unpkg.com/mustache@latest"></script>
+<script type="module" src="/js/routes.js"></script>
+<!-- <script src="https://apis.google.com/js/platform.js" async defer></script>
+<script src="./js/googleform.js"></script> -->
+<script>
+  function init() {
+    gapi.load('auth2', function () {
+      gapi.auth2.init();
+    });
+  }
+
+  window.onload = function () {
+    init();
+    gapi.signin2.render('content', {
+      'onsuccess': onSignIn
+    });
+  };
+</script>
+
+<script id="template-welcome" type="text/template">
+        <section class="main-page" id="welcome">
+        <div class="container">
+            <img src="/img/logo.png" alt="Logo" width="183" height="153"/>
+            <h1 class="main-page-title">IMPORTANCE OF COFFEE</h1>
+            <p class="main-page-p">Experience the profound significance of coffee, from awakening your senses to fostering connections, at our cozy coffee
+            haven</p>
+            <button class="main-page-btn" >READ MORE</button>
+        </div>
+        </section>
+</script>
+
+<script type="module" src="js/index.js"></script>
+<script type="module" src="js/articleFormsHandler.js"></script>
+
+<script id="template-about" type="text/template">
+      <section class="about" id="page-about">
+        <div class="container">
+          <h2 class="hidden">ABOUT</h2>
+          <ul class="list about-flex">
+            <li class="about-item">
+              <img srcset="./img/coffee-with-cookies-on-table-2x.jpg 2x" src="./img/coffee-with-cookies-on-table.jpg" alt="Coffee with cookies on table" width="400"  height="320" /> 
+                <h3 class="about-title"><span class="about-title-decor">01</span>BEAUTIFUL PLACE</h3>
+                <p class="about-p">Welcome to our cozy coffee haven, where every corner is adorned with the warmth of rustic charm and the subtle aroma of
+                freshly brewed coffee. Nestled in a serene nook, our coffee shop is a beautiful blend of comfort and elegance, designed
+                to make you feel right at home as you enjoy your favorite cup of coffee.</p>
+                <button class="about-btn">READ MORE</button>
+            </li>
+            <li class="about-item">
+              <img srcset="./img/coffee-with-lime-2x.jpg 2x" src="./img/coffee-with-lime.jpg" alt="Coffee with lime" width="400" height="320" />
+              <h3 class="about-title"><span class="about-title-decor">02</span>FEEL THE COFFEE</h3>
+              <p class="about-p">At our coffee shop, we invite you to immerse yourself in the captivating essence of coffee. Close your eyes and let the
+              rich, inviting aroma transport you to coffee plantations where beans are harvested with care. As you take that first
+              sip, feel the smoothness and the burst of flavors that only a perfectly crafted cup of coffee can offer.</p>
+              <button class="about-btn">READ MORE</button>
+            </li>
+            <li class="about-item">
+              <img srcset="./img/barista-prepearing-milk-2x.jpg 2x" src="./img/barista-prepearing-milk.jpg" alt="Barista prepearing milk" width="400" height="320" />
+              <h3 class="about-title"><span class="about-title-decor">03</span>FULL TASTE</h3>
+              <p class="about-p">Indulge your senses in the full-bodied taste of our carefully curated coffee blends. Each cup is an adventure, where the
+              flavors dance on your palate, leaving you with a sense of satisfaction and delight. From the earthy notes of our dark
+              roast to the vibrant and lively tones of our light roast, every sip promises a journey through the intricate taste
+              profiles of our premium coffee selections.</p>
+              <button class="about-btn">READ MORE</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+  </script>
+
+  <script id="template-best-coffee" type="text/template">
+        <section class="try-our-coffee" id="best-coffee">
+          <div class="container try-our-coffee-flex">
+            <img src="/img/try-bst-logo.png" alt="Stamp"/>
+            <div class="try-our-coffee-text">
+              <h2 class="try-our-heading">TRY THE BEST COFFEE
+                IN THE CITY</h2>
+              <p class="try-our-p">Craving a delightful coffee experience? Try the best coffee in the city and dive into a world of flavors by exploring
+              our comparison table of Arabica and Robusta brews.</p>
+              <a class="link try-our-link" href="/arabikaRobusta.html">Just click here, to know more!</a>
+            </div>
+          </div>
+        </section>
+    </script>
+
+  <script id="template-coffee-makers" type="text/template">
+      <section class="coffee-makers" id="our-coffee-makers">
+          <div class="container">
+            <ul class="list makers-flex">
+              <li class="makers-item">
+                <figure class="coffee-icon-container">
+                    <svg class="coffee-icon" width="105" height="126">
+                      <use href="/img/symbols-coffee.svg#icon-coffee-machine-svgrepo-com-1"></use>
+                    </svg>  
+                    <figcaption class="captiption-t">COFFEEMAKER</figcaption>
+                </figure>
+                <p class="coffee-maker-p">Brewing magic every morning, our coffeemaker transforms simple beans into a comforting elixir of the day</p>
+              </li>
+              <li class="makers-item">
+                <figure class="coffee-icon-container">
+                  <svg class="coffee-icon" width="105" height="126">
+                    <use href="/img/symbols-coffee.svg#icon-coffee-grinder-grinder-svgrepo-com"></use>
+                  </svg>
+                  <figcaption class="captiption-t">COFFEE GRINDER</figcaption>
+                </figure>
+                <p class="coffee-maker-p">In the gentle hum of the coffee grinder, whole beans turn into aromatic grounds, setting the stage for a perfect brew.</p>
+              </li>
+              <li class="makers-item">
+                  <figure class="coffee-icon-container">
+                    <svg class="coffee-icon" width="105" height="126">
+                      <use href="/img/symbols-coffee.svg#icon-coffee-togo-svgrepo-com"></use>
+                    </svg>
+                    <figcaption class="captiption-t">COFFEE CUPS</figcaption>
+                  </figure>
+                <p class="coffee-maker-p">Our coffee cups cradle more than a beverage; they hold stories, moments of laughter, and the warmth of friendship with
+                every sip.</p>
+              </li>
+              <li class="makers-item">
+                <figure class="coffee-icon-container">
+                  <svg class="coffee-icon" width="105" height="126">
+                    <use href="/img/symbols-coffee.svg#icon-coffee-machine-svgrepo-com"></use>
+                  </svg>
+                  <figcaption class="captiption-t">ESPRESSO MACHINE</figcaption>
+                </figure>
+                <p class="coffee-maker-p">Our espresso machine, a sophisticated maestro, conjures rich and velvety shots, a taste of indulgence in every tiny cup.</p>
+              </li>
+            </ul>
+          </div>
+      </section>
+   </script>
+
+  <script id="template-top-drinks" type="text/template">
+      <section class="top-coffee-drinks" id="top-list">
+        <div class="container top-coffee-flex">
+      
+         <div class="top-coffee-conteiner-bg">
+            <h2 class="top-drinks-heading">TOP RATED COFFEE DRINKS</h2>
+            <p class="top-drinks-p">Indulge in a caffeinated adventure with our carefully compiled best coffee drinks, each sip of which offers a journey
+            through time and taste sensations. To get a complete picture of the best coffee drinks throughout history, check out our
+            ranking of coffee drinks of all time.</p>
+            <a class="link top-drinks-link" href="/topDrinks.html">Discover something new!</a>
+          </div>
+          <img src="/img/top-barista.jpg" srcset="/img/top-barista-2x.jpg 2x" alt="Barista in cafe" width="556" height="373"/>
+        </div>
+      </section>
+  </script>
+
+  <script id="template-gallery" type="text/template">
+        <section class="fotogallery" id="our-gallery">
+          <div class="container">
+            <h2 class="gallery-heading">Our atmosphere</h2>
+            <ul class="list gallery-list">
+              <li class="photo"><img srcset="./img/barista-working-2x.jpg 2x" src="./img/barista-working.jpg" alt="Coffee machine and barista" height="646"></li>
+              <li class="photo"><img srcset="./img/croissant-and-coffee-2x.jpg 2x" src="./img/croissant-and-coffee.jpg" alt="Croisant and coffee"></li>
+              <li class="photo"><img srcset="./img/cold-drink-2x.jpg 2x" src="./img/cold-drink.jpg" alt="Cold coffee drink"></li>
+              <li class="photo"><img srcset="./img/customers-2x.jpg 2x" src="./img/customers.jpg" alt="customers"></li>
+              <li class="photo"><img srcset="./img/package-2x.jpg 2x" src="./img/package.jpg" alt="Coffee beans package"></li>
+              <li class="photo"><img srcset="./img/grinder-2x.jpg 2x" src="./img/grinder.jpg" alt="Grinder"></li>
+            </ul>
+          </div>
+        </section>
+      </script>
+
+      <script  id="template-feedback" type="text/template">
+        <section class="feedback" id="feedback-section">
+          <div class="container">
+            <h2 class="feedback-heading">LEAVE YOUR FEEDBACK</h2>
+        
+            <form class="form-flex" id="feedback">
+              <div class="form-area">
+                <label for="name" class="input-label">Name</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Your Name" required>
+        
+                <label for="email" class="input-label">Email</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="Your Email" required>
+        
+                <label for="email" class="input-label">Message</label>
+                <textarea class="form-text-area" name="message" id="message" cols="30" rows="10"
+                  placeholder="Your message"></textarea>
+                <div class="btn-options">
+                  <button type="submit" class="submit-btn">
+        
+                    <svg class="svg-button" width="16" height="16">
+                      <use href="/img/symbols-coffee.svg#icon-play-button"></use>
+                    </svg>
+        
+                  </button>
+                  <button type="reset" class="reset-btn" id="reset-btn">
+        
+                    <svg class="svg-button" width="16" height="16">
+                      <use href="/img/symbols-coffee.svg#icon-reset"></use>
+                    </svg>
+        
+                  </button>
+                </div>
+              </div>
+        
+              <div class="questions">
+                <p class="question-p">What your's favorite sort of coffee?</p>
+                <input type="radio" id="arabica" name="sort-of-coffee" value="arabica">
+                <label class="label-btn" for="arabica">Arabica</label>
+                <input type="radio" id="robusta" name="sort-of-coffee" value="robusta">
+                <label class="label-btn" for="robusta">Robusta</label>
+                <input type="radio" id="blend" name="sort-of-coffee" value="blend">
+                <label class="label-btn" for="robusta">Blend</label>
+        
+                <p class="question-p-visiting">Do you will visit our cafe?</p>
+                <input type="checkbox" id="will-visit" name="visit" value="will-visit">
+                <label class="label-btn" for="will-visit">Definitely!</label>
+              </div>
+            </form>
+      </div>
+      </section>
+
+      <script id="template-article" type="text/template">
+          <article>
+              <h3>{{title}}</h3>
+              <p>
+                  by {{author}}
+              </p>
+              {{#imageLink}}
+              <figure>
+                  <img src="{{imageLink}}" alt="article figure" />
+              </figure>
+              {{/imageLink}}
+              <div>{{{content}}}</div>
+              <p>
+                  Keywords:
+                  {{tags}}
+              </p>
+          </article>
+      
+          <div>
+              <a href="{{backLink}}" class="linkAsButton"><< Back</a>
+              <a href="{{editLink}}" class="linkAsButton">Edit</a>
+              <a href="{{deleteLink}}" class="linkAsButton">Delete</a>
+          </div>
+      
+      </script>
+
+      <script id="template-article-form" type="text/template">
+          <article>
+              <h2>{{formTitle}}</h2> <br><br>
+      
+              <form id="articleForm">
+                  <label for="author">Author:</label>
+                  <input type="text" name="author" id="author" value="{{author}}" size="50" 
+                         title="Article author, max. length 100 characters." 
+                         maxlength="100" placeholder="e.g. Ján Trieska" />
+                  <br>
+                  <label for="title">Title:</label>
+                  <input type="text" name="title" id="title" value="{{title}}" size="50"  
+                         maxlength="100" pattern="\S[\S\s]*" placeholder="e.g. My story." required 
+                         title="Article title, mandatory item, max. length: 100 characters. 
+      The first character must not be a space."  />
+                  <br>
+                  <label for="imageLink">Image (url):</label>
+                  <input type="url" name="imageLink" id="imageLink" value="{{imageLink}}" size="50" 
+                         title="Image URL, max. length 100 characters." maxlength="100"/>
+                  <br>
+                  <label></label>
+                  <button type="button" id="btShowFileUpload">
+                      Upload image
+                  </button>
+      
+                  <fieldset class="added hiddenElm" id="fsetFileUpload">
+                      <legend>Image Upload</legend>
+                      <input type="file" id="flElm" name="file" accept="image/jpeg, image/png"/>
+                      <br />
+                      <button type="button" id="btFileUpload">
+                          Send image to server </button>
+                      <button type="button" id="btCancelFileUpload">
+                          Cancel uploading </button>
+                  </fieldset>
+      
+      
+                  <br>
+                  <label for="content">Article content:</label>
+                  <textarea
+                          name="content" id="content" spellcheck="true" lang="sk"
+                          cols="50" rows="20" required
+                          title="Article content, mandatory item, can be plain text or in HTML.">
+                    {{content}}
+                  </textarea>
+                  <br>
+                  <label for="tags">Keywords:</label>
+                  <input  type="text" name="tags" id="tags" value="{{tags}}" size="50"
+                          title="Keyword list, comma separated." placeholder="e.g. village, drama" />
+                  <br> <br>
+                  <button type="reset" onclick="resetArticleForm()"> Reset Form </button>
+                  <button type="submit"> {{submitBtTitle}} </button>
+      
+              </form>
+          </article>
+      
+          <div>
+              <a href="{{backLink}}" class="linkAsButton">Back</a>
+          </div>
+      </script>
+
+      <script id="template-impressions" type="text/template">
+              <section class="impressions" id="impressions-section">
+                <div class="container">
+                  <h2 class="impressions-heading">Share your own impressions!</h2>
+                    {{#.}}
+                    <div class='block'>
+                        <h3 class="user-name">{{name}} <span class="date-create">{{createDate}}</span></h3>
+                        <p class='mesagge-text'>{{message}}</p>
+                        <p class='coffee-type-text'>Favorite coffee type: {{coffeeType}}</p>
+                    </div>
+                    {{/.}}
+                    {{^.}}
+                    <p>
+                        Sorry, no feedbacks found.
+                    </p>
+                    {{/.}}
+                </div>
+              </section>
+      </script>
+
+      <script id="template-articles" type="text/template">
+         <section class='articles-section'>
+           <div class='container'>
+                 <div>
+                    {{#articles}}
+                    <article class="block one-article">
+                        <h2 class="user-name"><a href="{{detailLink}}">{{title}}</a></h2>
+                        <p class="text-article">by {{author}}</p>
+                    </article>
+                    {{/articles}}
+                 </div>
+                  <div class="parent">
+                      <div id="prevLink" class="navigation-link" >previous</div>
+                      <div id="nextLink" class="navigation-link" >next</div>
+                  </div>
+           </div>
+         </section>
+          </script>
+      
+
+  </main>
+</body>
+</html>

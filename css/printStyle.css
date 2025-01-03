@@ -1,0 +1,17 @@
+@media print {
+
+    body {
+        background: white;
+    }
+
+
+    *{
+        color: black;
+        background-image: none;
+    }
+
+    * {
+        box-shadow: none;
+        border: none;
+    }
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Rated Coffee Drinks</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/screenStyle.css">
+    <link rel="stylesheet" href="./css/printStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Inika&family=Londrina+Solid:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="nav-flex">
+            <a class="link logo" href="/index.html">BARISTA</a>
+            <ul class="list nav-menu-flex">
+                <li><a class="link nav-link" href="/index.html">HOME</a></li>
+
+                <li><a id="menu-btn" onclick="displayOrHideMenu()" class="link nav-link">ABOUT</a>
+                    <nav id="about" class="about-menu hide-menu">
+                        <ul class="list about-menu-flex">
+                            <li><a class="link nav-link" href="#welcome">Welcome!</a></li>
+                            <li><a class="link nav-link" href="#page-about">About</a></li>
+                            <li><a class="link nav-link" href="#best-coffee">Best coffee</a></li>
+                            <li><a class="link nav-link" href="#our-coffee-makers">Our coffee makers</a></li>
+                            <li><a class="link nav-link" href="#top-list">Top drinks</a></li>
+                            <li><a class="link nav-link" href="#our-gallery">Our gallery</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li><a class="link nav-link">SERVICES</a></li>
+                <li><a class="link nav-link" href="#feedback-section">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section class="top-drinks-page">
+            <div class="container">
+                <h1 class="top-title">Top Rated Coffee Drinks</h1>
+                <h3 class="top-article">Explore the best coffee creations in our 'Top Rated Coffee Drinks' list, a curated selection that promises a delightful
+                coffee adventure with every cup.</h3>
+                <ol class="coffee-list">
+                    <li class="drink-item">
+                        <figure>
+                            <img srcset="./img/espresso-shot-2x.jpg 2x" src="./img/espresso-shot.jpg"   alt="Espresso shot" width="400" height="320" />
+                            <figcaption class="coffee-name">Espresso</figcaption>
+                        </figure>
+
+                        <p class="drink-item-p">A strong and bold coffee made by forcing hot water through finely-ground coffee beans. Originating in Italy,
+                            this intense shot of coffee has become a staple worldwide, known for its robust flavor and crema.</p>
+                    </li>
+                    <li class="drink-item">
+                        <figure>
+                            <img srcset="./img/cappuccino-2x.jpg 2x" src="./img/cappuccino.jpg" alt="Cappuccino" width="400" height="320" />
+                            <figcaption class="coffee-name">Cappuccino</figcaption>
+                        </figure>
+                        
+                        <p class="drink-item-p">A classic Italian coffee drink made with equal parts of espresso, steamed milk, and milk foam. Its name is
+                            derived from the Capuchin friars' brown robes, and it offers a perfect balance of rich espresso and creamy
+                            froth.</p>
+                    </li>
+                    <li class="drink-item">
+                        <figure>
+                            <img srcset="./img/latte-2x.jpg 2x" src="./img/latte.jpg" alt="Latte" width="400" height="320" />
+                            <figcaption class="coffee-name">Latte</figcaption>
+                        </figure>
+                        <p class="drink-item-p">A creamy and comforting coffee made with a shot of espresso and steamed milk. Its name comes from the Italian
+                            caffè latte, meaning "milk coffee," and it's beloved for its smooth texture and mild espresso taste.</p>
+                    </li>
+                    <li class="drink-item">
+                        <figure>
+                            <img srcset="./img/americano-2x.jpg 2x" src="./img/americano.jpg" alt="Americano" width="400" height="320" />
+                            <figcaption class="coffee-name">Americano</figcaption>
+                        </figure>
+                        <p class="drink-item-p">A simple yet satisfying coffee made by adding hot water to a shot of espresso. It originated during World War
+                            II when American soldiers in Italy diluted their espressos, resulting in a lighter but flavorful drink.</p>
+                    </li>
+                    <li class="drink-item">
+                        <figure>
+                            <img srcset="./img/mocha-2x.jpg 2x" src="./img/mocha.jpg" alt="Mocha" width="400" height="320" />
+                            <figcaption class="coffee-name">Mocha</figcaption>
+                        </figure>
+                        <p class="drink-item-p">A delightful blend of espresso, steamed milk, and chocolate, topped with whipped cream. The mocha's origins
+                            can be traced to Yemen, where coffee beans were first infused with spices and later combined with chocolate
+                            for a rich, sweet treat.</p>
+                    </li>
+                </ol>
+
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <ul class="list footer-list">
+                    <li class="opening-hours">
+                        <h3 class="footer-headings">OPENING HOURS</h3>
+                        <ul class="list schedule">
+                            <li class="open-day">
+                                <p class="day">MONDAY</p>
+                                <p class="time-closed">CLOSED</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">TUESDAY</p>
+                                <p class="time">9:00 - 22:00</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">WEDNESDAY</p>
+                                <p class="time">9:00 - 22:00</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">THURSDAY</p>
+                                <p class="time">9:00 - 22:00</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">FRIDAY</p>
+                                <p class="time">10:00 - 1:00</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">SATURDAY</p>
+                                <p class="time">12:00 - 22:00</p>
+                            </li>
+                            <li class="open-day">
+                                <p class="day">SUNDAY</p>
+                                <p class="time">10:00 - 21:00</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="latest-post">
+                    <h3 class="footer-headings">LATEST POST</h3>
+                    <ul class="list latest-post-list"> 
+                      <li class="post">
+                        <p class="post-p">EXPAND YOUR MIND, CHANGE EVERYTHING</p>
+                        <p class="post-date">02.07.2023</p>
+                      </li>
+                      <li class="post">
+                        <p class="post-p">PLACES TO GET LOST</p>
+                        <p class="post-date">14.07.2023</p>
+                      </li>
+                      <li class="post">
+                          <p class="post-p">LEWIS HOWES</p>
+                          <p class="post-date">16.06.2023</p>
+                      </li>
+                      <li class="post">
+                        <p class="post-p">ELEVATE YOUR EXPECTATIONS</p>
+                        <p class="post-date">14.05.2023</p>
+                      </li>
+                    </ul>
+                  </li> -->
+                    <li class="the-last-standart-post">
+                        <h3 class="footer-headings">CONTACT</h3>
+                        <address class="address">
+                            <ul class="list address-flex-list">
+                                <li><a class="mail link" href="mailto:barista@oxygenbuilder.com">barista@oxygenbuilder.com</a>
+                                </li>
+                                <li><a class="tel link" href="tel:+14441234559">1-444-123-4559</a></li>
+                                <li>
+                                    <p class="adderess-street">Raymond Boulevard 224, New York</p>
+                                </li>
+                            </ul>
+                        </address>
+                    </li>
+                    <!-- <li class="other-locations">
+                    <h3 class="footer-headings">OTHER LOCATIONS</h3>
+                  </li> -->
+                </ul>
+            </div>
+        </footer>
+
+    </main>
+    
+
+</body>
+
+</html>
